@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    /* position:absolute; */
+    width: 100%;
+    height: 100%;
+}
+.top{
+    
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(205, 226, 240);
+}
+.top h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 0%;
+    left: 0%; 
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 280px;
+    font-size: 50px;
+}
+.top h3{
+    position: relative;
+    top: 0%;
+    left: 0%; 
+    margin-top: 10px;
+    color: gray;
+    margin-left: 450px;
+    width: 300px;
+    /* font-size: 50px; */
+}
+.top h3 b{
+  color: black;
+}
+.top h4{
+    position: relative;
+    top: 0%;
+    left: 0%; 
+    margin-top: 10px;
+    color: gray;
+    margin-left: 450px;
+    width: 300px;
+    /* font-size: 50px; */
+}
+
+.top img{
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+.icon{
+    color: black;
+    margin-top: 40px;
+    margin-left: 450px;
+
+}
+.icon i{
+    gap: 10px;
+    padding:5px;
+}
+.content .top button{
+    color: rgb(65, 100, 215);
+    font-weight: 800;
+    margin-top: 70px;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 10px ;
+    margin-left: 450px;
+}
+.content .top #b2{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-top: 70px;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 10px ;
+    margin-left: 100px;
+}
+
+.bottom #h2{
+    color: gray;
+     padding-top: 30%;
+     margin-left: 100px;
+}
+.bottom h2 b{
+ color: black;
+}
+.bottom #h3{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 100px;
+}
+.bottom p{
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.bottom #h4{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 100px;
+}
+.bottom ul li{
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
